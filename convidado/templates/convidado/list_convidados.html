@@ -3,12 +3,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Teste</title>
+    <title>Lista Convidados</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="{% static 'css/convidado.css' %}">
 </head>
 <body>
-    <h1>O JP é uma bicha arrombada! Bicha Puta!</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, atque aut consequuntur doloremque ea et eum ipsa itaque, libero magnam maxime nostrum pariatur perspiciatis quibusdam reiciendis saepe tempore vel, voluptatum.</p>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 titulo">
+             <h1>Lista de convidados</h1>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 box">
+           <ul>
+               {% for p in posts %}
+                    <li>
+                        <div class="rotulo convi">Nome:</div>
+                        <div class="convi">{{p.nome}}</div>
+                        <div class="convi rotulo">Confirmado:</div>
+                        {% if p.confirmado == True %}
+                            <div class="convi">Sim</div>
+                        {% else %}
+                            <div class="convi">Não</div>
+                        {% endif %}
+                    </li>
+               {% endfor %}
+           </ul>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+
+
 
 </body>
 </html>
