@@ -1,3 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+
+def list_convidados(request):
+    return render(request, 'convidado/list_convidados.html',{})
