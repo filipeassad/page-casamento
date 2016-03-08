@@ -1,3 +1,36 @@
 h1{
     color: #FCA205;
+    font-family: 'Lobster';
 }
+.titulo{
+    text-align: center;
+}
+
+.box{
+    background: #F0FFF0;
+    height: 500px;
+    border: 0px solid;
+    border-radius: 25px;
+     box-shadow: 2px 2px 2px #888888;
+}
+ul{
+    padding: 10px;
+}
+li{
+   list-style-type:none;
+   text-align: left;
+   padding: 0px 0px 0px 5px
+}
+.convi{
+    display: inline-block;
+    margin: 0px 5px;
+    width: 100px;
+    text-align: left;
+}
+.label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FCA205;
+    text-align: right;
+}
+
