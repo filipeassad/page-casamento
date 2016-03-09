@@ -30,7 +30,7 @@ li{
 .convi{
     display: inline-block;
     margin: 10px 1px;
-    width: 100px;
+    width: 300px;
     text-align: left;
     font-weight: bold;
     color: #A0522D;
@@ -40,4 +40,5 @@ li{
     font-weight: normal;
     text-align: right;
     color: #FCA205;
+     width: 100px;
 }
