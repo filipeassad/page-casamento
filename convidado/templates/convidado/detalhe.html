@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalhe Convidado</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/convidado.css' %}">
+
+</head>
+<body>
+
+    <div class="row">
+        <div class="col-md-2">
+
+        </div>
+
+        <div class="col-md-8">
+            <h1>{{ post.nome }}</h1>
+        </div>
+
+        <div class="col-md-2">
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2">
+
+        </div>
+
+        <div class="col-md-8 box">
+            {% if post.nome = 'Filipe' %}
+                <p>Garoto mais gostoso do Brasil. Namora uma peituda linda que pisa no pé dele.</p>
+            {% elif post.nome = 'Mayara' %}
+                <p>Peituda mais linda do mundo que gosta de pisar no pé do namorado quando está com raiva.</p>
+            {% else %}
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A at, consequuntur delectus dolor ea eaque facere in iusto laborum nisi placeat quisquam quod reiciendis rem reprehenderit repudiandae sequi sit soluta! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam beatae commodi dolorem illo labore minus nam non, odio officiis placeat quo ratione recusandae reprehenderit tempore tenetur? Excepturi fuga reprehenderit sequi!</p>
+            {% endif%}
+        </div>
+
+        <div class="col-md-2">
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>

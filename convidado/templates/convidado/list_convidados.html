@@ -24,14 +24,16 @@
            <ul>
                {% for p in posts %}
                     <li>
-                        <div class="rotulo convi">Nome:</div>
-                        <div class="convi">{{p.nome}}</div>
-                        <div class="convi rotulo">Confirmado:</div>
-                        {% if p.confirmado == True %}
-                            <div class="convi">Sim</div>
-                        {% else %}
-                            <div class="convi">Não</div>
-                        {% endif %}
+                        <a href="{% url 'convidado.views.detalhe' pk=p.id %}">
+                            <div class="rotulo convi">Nome:</div>
+                            <div class="convi">{{p.nome}}</div>
+                            <div class="convi rotulo">Confirmado:</div>
+                            {% if p.confirmado == True %}
+                                <div class="convi">Sim</div>
+                            {% else %}
+                                <div class="convi">Não</div>
+                            {% endif %}
+                        </a>
                     </li>
                {% endfor %}
            </ul>

@@ -49,5 +49,12 @@ li:hover .convi{
     font-weight: normal;
     text-align: right;
     color: #FCA205;
-     width: 100px;
+    width: 100px;
+}
+
+p{
+    padding: 15px;
+    color: #A0522D;
+    text-indent: 50px;
+    font-weight: bold;
 }
