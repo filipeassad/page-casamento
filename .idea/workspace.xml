@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="45e92a3d-3919-4119-875f-562808c81167" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convidado/static/css/convidado.css" afterPath="$PROJECT_DIR$/convidado/static/css/convidado.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convidado/templates/convidado/list_convidados.html" afterPath="$PROJECT_DIR$/convidado/templates/convidado/list_convidados.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/convidado/views.py" afterPath="$PROJECT_DIR$/convidado/views.py" />
+>>>>>>> a38f98cc01b3409f4b3c22668e5a3124a67d6284
     </list>
     <ignored path="untitled.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,21 +63,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_convidados.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list_convidados.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/convidado/templates/convidado/list_convidados.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.14049587">
               <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+=======
+            <state vertical-scroll-proportion="-6.1923075">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+>>>>>>> a38f98cc01b3409f4b3c22668e5a3124a67d6284
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="convidado.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="convidado.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/convidado/static/css/convidado.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.0">
               <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+=======
+            <state vertical-scroll-proportion="0.8333333">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+>>>>>>> a38f98cc01b3409f4b3c22668e5a3124a67d6284
               <folding />
             </state>
           </provider>
@@ -641,18 +657,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/convidado/static/css/convidado.css">
+    <entry file="file://$PROJECT_DIR$/convidado/templates/convidado/list_convidados.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+=======
+        <state vertical-scroll-proportion="-6.1923075">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+>>>>>>> a38f98cc01b3409f4b3c22668e5a3124a67d6284
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/convidado/templates/convidado/list_convidados.html">
+    <entry file="file://$PROJECT_DIR$/convidado/static/css/convidado.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.14049587">
           <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+=======
+        <state vertical-scroll-proportion="0.8333333">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+>>>>>>> a38f98cc01b3409f4b3c22668e5a3124a67d6284
           <folding />
         </state>
       </provider>
