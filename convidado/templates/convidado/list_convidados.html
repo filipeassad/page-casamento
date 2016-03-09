@@ -24,15 +24,9 @@
            <ul>
                {% for p in posts %}
                     <li>
-<<<<<<< HEAD
                         <div class="rotulo convi">Nome:</div>
                         <div class="convi">{{p.nome}}</div>
                         <div class="convi rotulo">Confirmado:</div>
-=======
-                        <div class="convi label">Nome: </div>
-                        <div class="convi">{{p.nome}}</div>
-                        <div class="convi label">Confirmado: </div>
->>>>>>> a38f98cc01b3409f4b3c22668e5a3124a67d6284
                         {% if p.confirmado == True %}
                             <div class="convi">Sim</div>
                         {% else %}
