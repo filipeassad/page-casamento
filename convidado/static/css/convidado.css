@@ -27,6 +27,15 @@ li{
    border-radius: 3px;
    box-shadow: 1px 1px 1px #888888;
 }
+
+li:hover {
+    background: #A0522D;
+}
+
+li:hover .convi{
+    color: #F5DEB3;
+}
+
 .convi{
     display: inline-block;
     margin: 10px 1px;
