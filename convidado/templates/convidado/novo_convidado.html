@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro Convidado</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/convidado.css' %}">
+</head>
+<body>
+
+    <div class="row">
+        <div class="col-md-2">
+
+        </div>
+        <div class="col-md-8 titulo">
+            <h1>Cadastro Convidado</h1>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+    </div>
+
+    <div class="row">
+         <div class="col-md-2">
+
+        </div>
+        <div class="col-md-8">
+            {% block content %}
+                <form method="POST" class="post-form">{% csrf_token %}
+                    {{ form.as_p}}
+                    <button type="submit" class="botao">Cadastrar</button>
+                </form>
+            {% endblock %}
+        </div>
+        <div class="col-md-2">
+
+        </div>
+    </div>
+
+</body>
+</html>

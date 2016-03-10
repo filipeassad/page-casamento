@@ -10,12 +10,12 @@ a:link{
    text-decoration:none;
 }
 
-.box{
+.caixa{
     background: #DEB887;
-    height: 500px;
     border: 0px solid;
     border-radius: 10px;
     box-shadow: 2px 2px 2px #888888;
+    min-height: 500px;
 }
 ul{
     padding: 10px;
@@ -90,4 +90,11 @@ p{
 .paibotao{
     text-align: right;
     padding: 10px;
+}
+.mapa{
+    margin: 10px;
+    width: 870px;
+    height: 500px;
+    box-shadow: 1px 1px 1px #888888;
+    display: inline-block;
 }

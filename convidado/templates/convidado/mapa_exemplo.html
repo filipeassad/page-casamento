@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mapa</title>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link href="http://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{% static 'css/convidado.css' %}">
+
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <script>
+            function initialize() {
+              var mapProp = {
+                center:new google.maps.LatLng(-20.46713381,-54.63147461),
+                zoom:18,
+                mapTypeId:google.maps.MapTypeId.ROADMAP
+              };
+              var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8 titulo">
+                <h1>Mapa do Casamento Porra</h1>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8 caixa titulo">
+                <div id="googleMap" class="mapa"></div>
+            </div>
+            <div class="col-md-2">
+            </div>
+        </div>
+
+
+    </body>
+</html>
